@@ -1,0 +1,233 @@
+body{
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    background-color: rgb(31, 0, 62);
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px; 
+    background-color: rgb(18, 0, 64);
+    margin-bottom: 1px;
+}
+.header > img{
+    height: 40px;
+    
+}
+.header >h5{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+.nav-toggle{
+    display: none;
+}
+.header >button{
+    background: -webkit-repeating-linear-gradient(45deg, blue, red , yellow);
+    color: white;
+    border-radius: 50px;
+    height: 40px;
+    width: 150px;
+    border: none;
+}
+.techwave{
+    background-image: url(img/Image.png);
+    height: 700px;
+
+}
+.techwave .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 50px;
+}
+.techwave >p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+.button .btn-1 >button{
+    background: -webkit-repeating-linear-gradient(45deg, blue, red , yellow);
+    color: white;
+    border-radius: 50px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    font-weight: bold;
+}
+.button .btn-2 >button{
+    background: none;
+    height: 40px;
+    width: 150px;
+    color: rgb(2, 143, 86);
+    border:2px solid rgb(2, 143, 86);
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.about >p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.rating > div >h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(2, 143, 35);
+}
+.rating > div >p{
+    color: white;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-top: 50px;
+    background-color: rgb(31, 1, 75);
+    
+}
+.container >div{
+    border-radius: 30px;
+    background-color: rgb(55, 5, 94);
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.child1{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.child2{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.child3{
+    grid-column: span 2;
+    grid-row:  span 1;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+    background-color: rgb(31, 0, 62);
+    padding-bottom: 60px;
+}
+.card > div{
+    background-color: rgb(42, 2, 76);
+}
+.card > div >h3, p{
+    color: white;
+    padding-left: 30px;
+}
+.card > div >span >i{
+    color: rgb(4, 155, 4);
+    padding-left: 10px;
+}
+.card >div >span {
+    color: rgb(4, 155, 4);
+}
+
+.alex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(42, 2, 76);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.alex >div >img{
+    padding-right: 30px;
+}
+.group-button >button{
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+    color: rgb(165, 122, 42);
+    background-color: rgb(31, 0, 62);
+    border: 1px solid rgb(102, 96, 96);
+}
+
+.footer >div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-image: url(img/Image\ \(1\).png);
+}
+/*Responsive*/
+
+ @media screen and (max-width:576px) {
+            .header{
+                display: block;
+                width: 100%;
+            }
+            .techwave{
+                display: block;
+                width: 100%;
+            }
+            .about{
+                display: block;
+                width: 100%;
+            }
+            .container{
+                    display: block;
+                    width: 100%;
+            }
+            .card{
+                display: block;
+                width: 100%;
+            }
+            .alex{
+                display: block;
+                width: 100%;
+            }
+            .footer{
+                display: block;
+                width: 100%;
+            }
+            .rating{
+                display: block;
+                width: 100%;
+            }
+            
+        }
+  
+ 
+
+
+
+ 
+
+        
+        
+
