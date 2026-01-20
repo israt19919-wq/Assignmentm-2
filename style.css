@@ -221,6 +221,41 @@ body{
             }
             
         }
+@media screen and (min-width:993px) {
+            .header{
+                display: block;
+                width: 100%;
+            }
+            .techwave{
+                display: block;
+                width: 100%;
+            }
+            .about{
+                display: block;
+                width: 100%;
+            }
+            .container{
+                    display: block;
+                    width: 100%;
+            }
+            .card{
+                display: block;
+                width: 100%;
+            }
+            .alex{
+                display: block;
+                width: 100%;
+            }
+            .footer{
+                display: block;
+                width: 100%;
+            }
+            .rating{
+                display: block;
+                width: 100%;
+            }
+            
+}
   
  
 
